@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de Imágenes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1>Galería de Imágenes</h1>
+  </header>
+
+  <main class="galeria">
+    <div class="imagen">
+      <img src="https://via.placeholder.com/150" alt="Imagen 1" data-id="1">
+    </div>
+    <div class="imagen">
+      <img src="https://via.placeholder.com/150" alt="Imagen 2" data-id="2">
+    </div>
+    <div class="imagen">
+      <img src="https://via.placeholder.com/150" alt="Imagen 3" data-id="3">
+    </div>
+    <div class="imagen">
+      <img src="https://via.placeholder.com/150" alt="Imagen 4" data-id="4">
+    </div>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="cerrar">&times;</span>
+    <img src="" alt="Imagen ampliada" class="imagen-ampliada">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
